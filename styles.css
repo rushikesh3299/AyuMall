@@ -1,0 +1,30 @@
+@import url("/css_files/login.css");
+
+
+/*Reset CSS*/
+* {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
+	color: var(--text-color);
+	line-height: 1.5;
+}
+
+:root {
+	--text-color:#333;
+	--text-color-light: #5A5A5A;
+	--text-color-white:#eee;
+    
+    --primary-color: #00AAFF;
+	--primary-color-hover: #0088CC;
+}
+
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+a{
+	text-decoration: none;
+}
