@@ -1,5 +1,5 @@
 @import url("/css_files/login.css");
-
+@import url("./css_files/homepage.css");
 
 /*Reset CSS*/
 * {
@@ -14,9 +14,13 @@
 	--text-color:#333;
 	--text-color-light: #5A5A5A;
 	--text-color-white:#eee;
+	--pure-white-color: #fff;
     
     --primary-color: #00AAFF;
 	--primary-color-hover: #0088CC;
+
+	--shadow-color: gray;
+	--light-gray-bg: #EAEAEC;
 }
 
 

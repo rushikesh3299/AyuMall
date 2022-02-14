@@ -1,0 +1,121 @@
+/* Navbar styles */
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: var(--pure-white-color);
+    box-shadow: 0px 0px .5rem var(--text-color-light);
+}
+
+.navbar-ayumall-logo{
+    width: 6rem;
+}
+
+.navbar-left-items{
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-left-items a:hover{
+    color: var(--primary-color);
+}
+
+.navbar-menu-icon{
+    display: none;
+}
+
+.navbar-right-items{
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-search-container{
+    position: relative;
+}
+
+.navbar-search-container i{
+    color: var(--primary-color);
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+}
+
+.navbar-search{
+    width: 250px;
+    padding: .25rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+}
+
+.navbar-search:hover{
+    border: 2px solid var(--primary-color);
+}
+
+.nav-icon-link{
+    text-align: center;
+}
+
+.nav-icon-name{
+    display: block;
+    font-size: .75rem;
+}
+
+@media only screen and (max-width: 798px) {
+    .navbar-menu-icon{
+        display: block;
+    }
+
+    .navbar-search-container{
+        display: none;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .nav-icon-link-login{
+        display: none;
+    }
+}
+
+.mobile-nav{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    background: var(--pure-white-color);
+    box-shadow: 0px 0px .5rem var(--text-color-light);
+    display: none;
+}
+
+.mobile-nav-display{
+    display: block;
+}
+
+.mobile-nav-close{
+    font-size: 1.5rem;
+    position: fixed;
+    left: calc(200px - 2.5rem);
+    top: 1rem;
+}
+
+.mobile-nav-login{
+    padding: 1rem;
+    font-size: 4rem;
+    background: var(--text-color-light);
+}
+
+.mobile-nav-menu-container{
+    padding: 1rem .5rem;
+}
+
+.mobile-nav-menu{
+    padding: 1rem;
+}
