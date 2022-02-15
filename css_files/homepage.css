@@ -98,8 +98,8 @@
 
 .featured-card{
     padding: 1rem;
-    width: 250px;
-    height: 270px;
+    width: 15.5rem;
+    height: 16.5rem;
     border-radius: 1rem;
     box-shadow: 5px 2px 15px var(--shadow-color);
     transition: transform .4s;
@@ -126,7 +126,7 @@
 }
 
 .features-brand-section img{
-    width: 200px;
+    width: 12.5rem;
     height: auto;
     transition: transform .4s;
 }

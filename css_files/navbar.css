@@ -87,7 +87,7 @@
 
 .mobile-nav{
     position: fixed;
-    width: 200px;
+    width: 12.5rem;
     height: 100vh;
     top: 0;
     background: var(--pure-white-color);
