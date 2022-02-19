@@ -1,5 +1,7 @@
 @import url("/css_files/login.css");
 @import url("./css_files/homepage.css");
+@import url("./css_files/productpage.css");
+@import url("https://saraniui.netlify.app/common_css/sarani_ui.css");
 
 /*Reset CSS*/
 * {
@@ -20,6 +22,7 @@
 	--primary-color-hover: #0088CC;
 
 	--shadow-color: gray;
+	--shadow-color-light: rgb(0 0 0 / 10%);
 	--light-gray-bg: #EAEAEC;
 }
 
@@ -31,4 +34,9 @@ html
 
 a{
 	text-decoration: none;
+}
+
+.space-2rem{
+	width: 100%;
+	height: 2rem;
 }
